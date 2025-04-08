@@ -12,8 +12,6 @@ canvas_accueil.grid()
 label = tk.Label(root, text= "Jouons au Mastermind!", font= ("helevtica", "30"))
 label.place(x= 250, y= 10)
 
-def clic(couleur_bouton):
-    eedevs
 
 def solo():  # définie le mode de jeu à 1 joueur
     code_solo = random.sample(couleurs, 4)
